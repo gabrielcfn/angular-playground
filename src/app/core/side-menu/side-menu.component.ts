@@ -13,12 +13,17 @@ export class SideMenuComponent {
     label: 'Home',
   },
   {
+    routeLink: 'salesperson',
+    label: 'Vendedores',
+  },
+  {
     routeLink: 'products',
     label: 'Produtos',
   },
   {
     routeLink: 'orders',
     label: 'Pedidos',
-  }]
+  }
+]
 
 }
