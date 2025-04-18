@@ -1,0 +1,9 @@
+<div class="side-menu-container">
+    <nav>
+        <ul>
+            @for (route of routes; track $index) {
+                <li><a [routerLink]="route.routeLink">{{route.label}}</a></li>
+            }
+        </ul>
+    </nav>
+</div>
