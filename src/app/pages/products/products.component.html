@@ -1,12 +1,7 @@
 <div>
     <h2>Produtos</h2>
     <ul>
-                  
-
-    @for (product of productList; track product.id) 
-    {<li>{{ product.title }}</li>} @empty {<li>There are no items.</li>}
-
-
-        
+        @for (product of productList; track product.id) 
+        {<li>{{ product.title }}</li>} @empty {<li>There are no items.</li>}        
     </ul>
 </div>
